@@ -8,6 +8,10 @@ function numToBin(number){
     return bin.reverse().join("");
 }
 
+
+// Daniel
+// Liam
+
 function numToHexa(number){
     let hexa = []
     while(number / 16 > 15){
@@ -62,4 +66,3 @@ function numToHexa(number){
     }
     return hexa.reverse().join("");
 }
-
