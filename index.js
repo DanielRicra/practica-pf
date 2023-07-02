@@ -69,3 +69,11 @@ function numToHexa(number){
     }
     return hexa.reverse().join("");
 }
+
+function Francisco(){
+    return {
+        name: 'Francisco',
+        age: 26,
+        nationality: 'Argentino'
+    }
+}
