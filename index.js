@@ -5,3 +5,6 @@ function laCajaDePandora(Francisco) {
         return Francisco.toString(16); // Convierte a hexadecimal
     }
 }
+
+
+// Liam
