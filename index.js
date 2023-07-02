@@ -1,10 +1,3 @@
-function laCajaDePandora(number) {
-    if (number % 2 === 0) {
-        return numToBin(number); // Convierte a binario
-    } else {
-        return numToHexa(number); // Convierte a hexadecimal
-    }
-}
 
 function numToBin(number){
     let bin = []
@@ -69,3 +62,4 @@ function numToHexa(number){
     }
     return hexa.reverse().join("");
 }
+
