@@ -5,3 +5,6 @@ function laCajaDePandora(numero) {
         return numero.toString(16); // Convierte a hexadecimal
     }
 }
+
+
+// hola god
