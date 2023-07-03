@@ -1,4 +1,5 @@
 
+
 function numToBin(number){
     let bin = []
     while (number / 2 >= 1) {
@@ -65,4 +66,12 @@ function numToHexa(number){
             break;
     }
     return hexa.reverse().join("");
+}
+
+function Liam() {
+    return {
+        nombre: "Liam",
+        edad: 24,
+        nacionalidad: "Argentina"
+    }
 }
