@@ -66,3 +66,11 @@ function numToHexa(number){
     }
     return hexa.reverse().join("");
 }
+
+function Daniel() {
+   return {
+      name: 'Daniel',
+      edad: 24,
+      nacionalidad: 'Perú'
+   }
+}
