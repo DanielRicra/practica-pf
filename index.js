@@ -1,10 +1,3 @@
-function laCajaDePandora(number) {
-    if (number % 2 === 0) {
-        return numToBin(number); // Convierte a binario
-    } else {
-        return numToHexa(number); // Convierte a hexadecimal
-    }
-}
 
 function numToBin(number){
     let bin = []
@@ -70,6 +63,7 @@ function numToHexa(number){
     return hexa.reverse().join("");
 }
 
+<<<<<<< HEAD
 function Francisco(){
     return {
         name: 'Francisco',
@@ -77,3 +71,5 @@ function Francisco(){
         nationality: 'Argentino'
     }
 }
+=======
+>>>>>>> 9b5698c0b5b4fb05e31cff5553f37caeb8624a67
