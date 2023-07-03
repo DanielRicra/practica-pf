@@ -69,6 +69,15 @@ function numToHexa(number){
 }
 
 
+function Daniel() {
+   return {
+      name: 'Daniel',
+      edad: 24,
+      nacionalidad: 'Perú'
+   }
+}
+
+
 function Francisco(){
     return {
         name: 'Francisco',
@@ -84,4 +93,3 @@ function Liam() {
         nacionalidad: "Argentina"
     }
 }
-
