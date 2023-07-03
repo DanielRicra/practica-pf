@@ -1,4 +1,5 @@
 
+
 function numToBin(number){
     let bin = []
     while (number / 2 >= 1) {
@@ -7,6 +8,10 @@ function numToBin(number){
     }
     return bin.reverse().join("");
 }
+
+
+// Daniel
+// Liam
 
 function numToHexa(number){
     let hexa = []
@@ -63,7 +68,7 @@ function numToHexa(number){
     return hexa.reverse().join("");
 }
 
-<<<<<<< HEAD
+
 function Francisco(){
     return {
         name: 'Francisco',
@@ -71,5 +76,12 @@ function Francisco(){
         nationality: 'Argentino'
     }
 }
-=======
->>>>>>> 9b5698c0b5b4fb05e31cff5553f37caeb8624a67
+
+function Liam() {
+    return {
+        nombre: "Liam",
+        edad: 24,
+        nacionalidad: "Argentina"
+    }
+}
+
