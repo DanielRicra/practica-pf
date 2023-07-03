@@ -1,5 +1,4 @@
-
-function numToBin(number){
+function numToBin(number) {
     let bin = []
     while (number / 2 >= 1) {
         bin.push(number % 2);
